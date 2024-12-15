@@ -1,21 +1,86 @@
-﻿# Git-course demo
+Here’s the Git-course demo in Markdown format:
 
-_Started on:_ **14.12.2024**
-<hr>
-Learned basics like:
-  * Learned about how to create SSH key using command: ssh-keygen
-  * git remote -u <SSH-key>
-  * git commands
-    - add <fileName>.type (or) add . -> completely adds all unstaged process
-    - commit -m "Message"
-    - push origin <branch>
-    - pull origin main -> used to pull from remote branch to local machine
-    - git status
-    - git log
-    - git log --graph
-    - git branch -> checks the branches available
-    - git switch <branch> (or) git checkout -b <branch>
-    - git switch - -> goes to previous branch we working on
-    - git checkout -c <branch> -> create new branch
-<hr>
-  _Completed on:_ **15.12.2024**
+```markdown
+# **Git-Course Demo**
+
+**Started on:** *14.12.2024*  
+---
+
+### **Topics Learned:**
+
+#### **1. Basics:**
+- How to create an SSH key:  
+  ```bash
+  ssh-keygen
+  ```
+- Connect remote repository:  
+  ```bash
+  git remote -u <SSH-key>
+  ```
+
+#### **2. Git Commands:**
+- **Adding files:**
+  - Add a specific file:  
+    ```bash
+    git add <fileName>.type
+    ```
+  - Add all unstaged changes:  
+    ```bash
+    git add .
+    ```
+
+- **Committing changes:**  
+  ```bash
+  git commit -m "Your commit message"
+  ```
+
+- **Pushing to a branch:**  
+  ```bash
+  git push origin <branch>
+  ```
+
+- **Pulling updates from remote to local:**  
+  ```bash
+  git pull origin main
+  ```
+
+- **Checking status:**  
+  ```bash
+  git status
+  ```
+
+- **Viewing commit history:**  
+  ```bash
+  git log
+  ```
+  - With graph view:  
+    ```bash
+    git log --graph
+    ```
+
+- **Branch Management:**
+  - View available branches:  
+    ```bash
+    git branch
+    ```
+  - Switch to a branch:  
+    ```bash
+    git switch <branch>
+    ```
+    (or)
+    ```bash
+    git checkout -b <branch>
+    ```
+  - Go to the previous branch:  
+    ```bash
+    git switch -
+    ```
+  - Create and switch to a new branch:  
+    ```bash
+    git checkout -c <branch>
+    ```
+
+---
+
+**Completed on:** *15.12.2024*  
+---
