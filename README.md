@@ -1,6 +1,3 @@
-Here’s the Git-course demo in Markdown format:
-
-```markdown
 # **Git-Course Demo**
 
 **Started on:** *14.12.2024*  
